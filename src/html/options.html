@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      input {
+        width: 100%;
+      }
+      #notice {
+        color: #1B81A8;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>API Credentials</h2>
+    <span>You can control your credentials settings in <a href="https://metrics.librato.com/tokens" target="_blank">Librato</a>.</span>
+    <p>
+      <label>Username</label>
+      <br />
+      <input type="text" id="email" placeholder="librato@test.local"/>
+    </p>
+    <p>
+      <label>Token</label>
+      <br />
+      <input type="password" id="token" placeholder="API Token"/>
+    </p>
+    <p>
+      <button id="save">Save</button>
+      <strong id="notice"></strong>
+    </p>
+    <script type="text/javascript" src="options.js"></script>
+  </body>
+</html>
