@@ -4,6 +4,9 @@ A Chrome extension that shows Librato Alerts.
 [![CircleCI](https://circleci.com/gh/bryanmikaelian/librato-alerts-chrome/tree/master.svg?style=svg)](https://circleci.com/gh/bryanmikaelian/librato-alerts-chrome/tree/master)
 
 # Getting Started
+You can download the extension from [Chrome Web Store](https://chrome.google.com/webstore/detail/librato-browser-extension/imgkpcebcnhdnbfpglklbbdhponjcinp). 
+
+Alternatively, you can download this repo and install locally via:
 
 ```
 $ git clone git@github.com:bryanmikaelian/librato-alerts-chrome.git
